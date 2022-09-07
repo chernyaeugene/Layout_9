@@ -51,7 +51,7 @@ body._lock {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-Regular';
   src: url('fonts/OpenSans-Regular.eot');
   src: url('fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
   url('fonts/OpenSans-Regular.woff2') format('woff2'),
@@ -64,7 +64,7 @@ body._lock {
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'OpenSans-Bold';
   src: url('fonts/OpenSans-Bold.eot');
   src: url('fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
   url('fonts/OpenSans-Bold.woff2') format('woff2'),
@@ -77,7 +77,7 @@ body._lock {
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'OpenSans-Italic';
   src: url('fonts/OpenSans-Italic.eot');
   src: url('fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
   url('fonts/OpenSans-Italic.woff2') format('woff2'),
@@ -89,7 +89,7 @@ body._lock {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'OpenSans-SemiBold';
   src: url('fonts/OpenSans-SemiBold.eot');
   src: url('fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
   url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
@@ -101,7 +101,7 @@ body._lock {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Tinos';
+  font-family: 'Tinos-Regular';
   src: url('fonts/Tinos-Regular.eot');
   src: url('fonts/Tinos-Regular.eot?#iefix') format('embedded-opentype'),
   url('fonts/Tinos-Regular.woff2') format('woff2'),
@@ -112,3 +112,279 @@ body._lock {
   font-style: normal;
   font-display: swap;
 }
+
+%btn {
+  font-family: 'OpenSans-Bold', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 14px 19px;
+  background-color: #FF7400;
+  color: white;
+  text-transform: uppercase;
+}
+%fnt {
+  font-family: 'Tinos-Regular', sans-serif;
+  font-size: 54px;
+  line-height: 62px;
+}
+.container {
+  max-width: 1168px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+header a {
+   color: white;
+}
+body {
+  color: black;
+  header {
+    background: url("img/header_bg.png") no-repeat;
+    background-size: cover;
+    .header_box {
+      padding: 50px 0 231px;
+      .header_box_menu {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header_menu_content {
+          display: flex;
+          align-items: center;
+          .header_menu {
+            margin-right: 36px;
+            .menu_list {
+              display: flex;
+              gap: 23px;
+              .menu_link {
+                a {
+                  font-family: 'OpenSans-Bold', sans-serif;
+                  font-size: 14px;
+                  line-height: 19px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+          .cart_link {
+            margin-right: 21px;
+          }
+          .menu_line {
+            margin-right: 31px;
+          }
+          .call_box {
+            margin-right: 45px;
+            max-width: 163px;
+            .call_content {
+              display: flex;
+              img {
+                margin-right: 8px;
+              }
+              a {
+                font-family: 'OpenSans-Bold', sans-serif;
+                font-size: 18px;
+                line-height: 25px;
+              }
+            }
+            p {
+              font-family: 'Open Sans-Regular', sans-serif;
+              font-size: 14px;
+              line-height: 19px;
+              color: white;
+            }
+          }
+          .hd_btn_mn {
+            @extend %btn;
+          }
+        }
+      }
+      .header_box_content {
+        max-width: 484px;
+        padding-top: 203px;
+        text-align: center;
+        .header_tittle {
+          font-family: 'Tinos-Regular', sans-serif;
+          font-size: 50px;
+          line-height: 57px;
+          color: #D67E35;
+        }
+        .header_sub_tittle {
+          font-family: 'Tinos-Regular', sans-serif;
+          font-size: 80px;
+          line-height: 92px;
+          margin-bottom: 12px;
+          color: #D67E35;
+        }
+        .header_content_sub_tittle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 21px;
+          p {
+            font-family: 'Open Sans-Regular', sans-serif;
+            font-size: 18px;
+            line-height: 25px;
+            color: white;
+          }
+        }
+        .hd_tl_bt {
+          @extend %btn;
+          padding: 14px 28px;
+        }
+      }
+    }
+  }
+  .history {
+    padding: 371px 0 121px;
+    background-color: white;
+    .container {
+      position: relative;
+      .history_intro {
+        display: flex;
+        //gap: 31px;
+        max-width: 1108px;
+        width: 100%;
+        justify-content: space-between;
+        position: absolute;
+        top: -478px;
+        .intro_content {
+          max-width: 349px;
+          width: 100%;
+          margin-bottom: 31px;
+          background-color: white;
+          padding: 48px 0 25px;
+          text-align: center;
+          box-shadow: 5px 5px 50px gray;
+          img {
+            margin-bottom: 8px;
+          }
+          .intro_tittle,
+          .intro_sub_tittle {
+            font-family: 'Tinos-Regular', sans-serif;
+            font-size: 26px;
+            line-height: 30px;
+            margin-bottom: 20px;
+          }
+          .intro_tittle span {
+            color: #BC9060;
+          }
+          .intro_sub_tittle {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .history_content {
+        display: flex;
+        justify-content: space-between;
+        .history_txt {
+          max-width: 444px;
+          text-align: center;
+          .history_tittle {
+            @extend %fnt;
+            margin-bottom: 21px;
+          }
+          .history_tittle span {
+            color: #D67E34;
+          }
+          .history_sub_tittle {
+            font-family: 'Open Sans-Regular', sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 80px;
+          }
+          .counter {
+            display: flex;
+            gap: 35px;
+            justify-content: center;
+          }
+          .element p:first-child {
+            color: #BC9060;
+            font-family: 'Open Sans-Regular', sans-serif;
+            font-size: 40px;
+            line-height: 54px;
+          }
+          .element p:last-child {
+            font-family: 'Open Sans-Regular', sans-serif;
+            font-size: 20px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+
+  }
+  .advertising {
+    background-color: black;
+    padding: 80px 0 104px;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .advertising_txt {
+        max-width: 601px;
+        h2 {
+          font-family: 'Tinos-Regular', sans-serif;
+          font-size: 52px;
+          line-height: 60px;
+          color: #D67E34;
+          margin-bottom: 20px;
+        }
+        p {
+          font-family: 'OpenSans-Bold', sans-serif;
+          font-size: 24px;
+          line-height: 33px;
+          color: white;
+        }
+      }
+      button {
+        @extend %btn;
+      }
+    }
+  }
+  .daily {
+    background-color: white;
+    padding: 132px 0 150px;
+    .container {
+      text-align: center;
+      max-width: 1129px;
+      h2 {
+        @extend %fnt;
+        margin-bottom: 139px;
+      }
+      h2 span {
+        color: #D67E34;
+      }
+      .daily_img_box {
+        display: flex;
+        gap: 30px;
+        .daily_price div:last-child {
+          margin-bottom: 0;
+        }
+        .offers {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 29px;
+          .offer_logo {
+            margin-right: 30px;
+          }
+          p {
+            font-family: 'Tinos-Regular', sans-serif;
+            font-size: 26px;
+            line-height: 30px;
+            margin-right: 8px;
+            white-space: nowrap;
+          }
+          img {
+            margin-right: 11px;
+          }
+        }
+        .offer p:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+
