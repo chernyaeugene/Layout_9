@@ -102,7 +102,7 @@ body._lock {
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
-body header .header_box .header_box_menu .header_menu_content .hd_btn_mn, body header .header_box .header_box_content .hd_tl_bt, body .advertising .container button {
+body header .header_box .header_box_menu .header_menu_content .hd_btn_mn, body header .header_box .header_box_content .hd_tl_bt, body .advertising .container button, body .menu_prise .container .slider_box .present_element button {
   font-family: 'OpenSans-Bold', sans-serif;
   font-size: 14px;
   line-height: 19px;
@@ -309,5 +309,127 @@ body {
             margin-right: 11px; }
         body .daily .container .daily_img_box .offer p:last-child {
           margin-right: 0; }
+  body .menu_prise {
+    padding: 100px 0 226px;
+    background: url("img/menu_bg.png") no-repeat;
+    background-size: cover; }
+    body .menu_prise .container {
+      max-width: 1352px;
+      text-align: center; }
+      body .menu_prise .container h2 {
+        font-family: 'Tinos-Regular', sans-serif;
+        font-size: 54px;
+        line-height: 62px;
+        margin-bottom: 138px;
+        color: white; }
+      body .menu_prise .container .slider_box {
+        display: flex;
+        justify-content: center;
+        gap: 30px; }
+        body .menu_prise .container .slider_box .present_element {
+          max-width: 350px;
+          width: 100%;
+          background-color: #FFFFFF;
+          text-align: center;
+          padding-bottom: 29px;
+          position: relative; }
+          body .menu_prise .container .slider_box .present_element h3 {
+            font-family: 'Open Sans-Regular', sans-serif;
+            font-size: 13px;
+            line-height: 18px;
+            padding: 7px 11px 11px 12px;
+            background-color: #D67E34;
+            max-width: 124px;
+            position: absolute;
+            top: 0;
+            left: 0; }
+          body .menu_prise .container .slider_box .present_element .elem_price_img {
+            margin: 80px 0 22px 0;
+            position: relative; }
+            body .menu_prise .container .slider_box .present_element .elem_price_img .price_elem {
+              position: absolute;
+              top: 55%;
+              right: 14%;
+              color: white;
+              font-family: 'CookieRegular', sans-serif;
+              font-size: 30px;
+              line-height: 33px;
+              padding: 25px 0 0 5px;
+              background-color: #D67E34;
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              border: 7px solid white; }
+          body .menu_prise .container .slider_box .present_element h2 {
+            font-family: 'Tinos-Regular', sans-serif;
+            font-size: 26px;
+            line-height: 30px;
+            margin-bottom: 17px; }
+          body .menu_prise .container .slider_box .present_element p {
+            font-family: 'Open Sans-Regular', sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            margin: 0 auto 22px auto;
+            max-width: 225px; }
+          body .menu_prise .container .slider_box .present_element button {
+            padding: 14px 68px;
+            font-size: 16px; }
+      body .menu_prise .container .swiper-button-prev,
+      body .menu_prise .container .swiper-button-next {
+        background-image: url("img/sl_bt.svg");
+        background-size: 100%;
+        width: 40px;
+        height: 40px;
+        color: transparent; }
+  body .comments {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding: 104px 0 108px; }
+    body .comments .comment_txt {
+      max-width: 920px;
+      margin: 0 auto; }
+      body .comments .comment_txt p {
+        font-family: 'OpenSans-Italic', sans-serif;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 20px; }
+      body .comments .comment_txt img {
+        margin-bottom: 16px; }
+      body .comments .comment_txt h2 {
+        font-family: 'OpenSans-SemiBold', sans-serif;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 10px; }
+      body .comments .comment_txt h3 {
+        font-family: 'Open Sans-Regular', sans-serif;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 25px; }
+  body .swiper-pagination-bullet {
+    background-color: #c4c4c4;
+    border: 1px solid #D67E34; }
+  body .gallery {
+    background-color: white;
+    padding-top: 100px;
+    text-align: center; }
+    body .gallery h2 {
+      font-family: 'Tinos-Regular', sans-serif;
+      font-size: 54px;
+      line-height: 62px;
+      margin-bottom: 60px; }
+      body .gallery h2 span {
+        color: #D67E34; }
+    body .gallery .gallery_box {
+      max-width: 1111px;
+      margin: 0 auto;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap; }
+  body #swiper_gallery_prev,
+  body #swiper_gallery_next {
+    background-color: #FF0000;
+    width: 30px;
+    height: 100px;
+    color: transparent; }
 
 /*# sourceMappingURL=styles.css.map */
