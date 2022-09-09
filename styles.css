@@ -111,10 +111,13 @@ body header .header_box .header_box_menu .header_menu_content .hd_btn_mn, body h
   color: white;
   text-transform: uppercase; }
 
-body .history .container .history_content .history_txt .history_tittle, body .daily .container h2 {
+body .history .container .history_content .history_txt .history_tittle, body .daily .container h2, body .menu_prise .container h2, body .gallery h2, body .chef .container h2 {
   font-family: 'Tinos-Regular', sans-serif;
   font-size: 54px;
   line-height: 62px; }
+
+h2, h3, p {
+  font-family: 'Open Sans-Regular', sans-serif; }
 
 .container {
   max-width: 1168px;
@@ -165,7 +168,6 @@ body {
                 font-size: 18px;
                 line-height: 25px; }
             body header .header_box .header_box_menu .header_menu_content .call_box p {
-              font-family: 'Open Sans-Regular', sans-serif;
               font-size: 14px;
               line-height: 19px;
               color: white; }
@@ -191,12 +193,13 @@ body {
           gap: 8px;
           margin-bottom: 21px; }
           body header .header_box .header_box_content .header_content_sub_tittle p {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 18px;
             line-height: 25px;
             color: white; }
         body header .header_box .header_box_content .hd_tl_bt {
           padding: 14px 28px; }
+      body header .header_box .menu_icon {
+        display: none; }
   body .history {
     padding: 371px 0 121px;
     background-color: white; }
@@ -240,7 +243,6 @@ body {
           body .history .container .history_content .history_txt .history_tittle span {
             color: #D67E34; }
           body .history .container .history_content .history_txt .history_sub_tittle {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 16px;
             line-height: 22px;
             margin-bottom: 80px; }
@@ -250,11 +252,9 @@ body {
             justify-content: center; }
           body .history .container .history_content .history_txt .element p:first-child {
             color: #BC9060;
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 40px;
             line-height: 54px; }
           body .history .container .history_content .history_txt .element p:last-child {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 20px;
             line-height: 27px; }
   body .advertising {
@@ -317,9 +317,6 @@ body {
       max-width: 1352px;
       text-align: center; }
       body .menu_prise .container h2 {
-        font-family: 'Tinos-Regular', sans-serif;
-        font-size: 54px;
-        line-height: 62px;
         margin-bottom: 138px;
         color: white; }
       body .menu_prise .container .slider_box {
@@ -334,7 +331,6 @@ body {
           padding-bottom: 29px;
           position: relative; }
           body .menu_prise .container .slider_box .present_element h3 {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 13px;
             line-height: 18px;
             padding: 7px 11px 11px 12px;
@@ -366,7 +362,6 @@ body {
             line-height: 30px;
             margin-bottom: 17px; }
           body .menu_prise .container .slider_box .present_element p {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 16px;
             line-height: 22px;
             margin: 0 auto 22px auto;
@@ -401,7 +396,6 @@ body {
         line-height: 27px;
         margin-bottom: 10px; }
       body .comments .comment_txt h3 {
-        font-family: 'Open Sans-Regular', sans-serif;
         font-size: 20px;
         line-height: 27px;
         margin-bottom: 25px; }
@@ -413,9 +407,6 @@ body {
     padding-top: 100px;
     text-align: center; }
     body .gallery h2 {
-      font-family: 'Tinos-Regular', sans-serif;
-      font-size: 54px;
-      line-height: 62px;
       margin-bottom: 60px; }
       body .gallery h2 span {
         color: #D67E34; }
@@ -431,5 +422,23 @@ body {
     width: 30px;
     height: 100px;
     color: transparent; }
+  body .chef {
+    background-color: white;
+    padding: 100px 0; }
+    body .chef .container {
+      text-align: center; }
+      body .chef .container h2 {
+        margin-bottom: 107px; }
+        body .chef .container h2 span {
+          color: #D67E34; }
+      body .chef .container .chef_gallery {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap; }
+  body footer {
+    background: url("img/footer_bg.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 732px; }
 
 /*# sourceMappingURL=styles.css.map */

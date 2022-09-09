@@ -127,6 +127,9 @@ body._lock {
   font-size: 54px;
   line-height: 62px;
 }
+h2, h3, p {
+  font-family: 'Open Sans-Regular', sans-serif;
+}
 .container {
   max-width: 1168px;
   padding: 0 30px;
@@ -186,7 +189,6 @@ body {
               }
             }
             p {
-              font-family: 'Open Sans-Regular', sans-serif;
               font-size: 14px;
               line-height: 19px;
               color: white;
@@ -221,7 +223,6 @@ body {
           gap: 8px;
           margin-bottom: 21px;
           p {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 18px;
             line-height: 25px;
             color: white;
@@ -231,6 +232,9 @@ body {
           @extend %btn;
           padding: 14px 28px;
         }
+      }
+      .menu_icon {
+        display: none;
       }
     }
   }
@@ -287,7 +291,6 @@ body {
             color: #D67E34;
           }
           .history_sub_tittle {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 16px;
             line-height: 22px;
             margin-bottom: 80px;
@@ -299,12 +302,10 @@ body {
           }
           .element p:first-child {
             color: #BC9060;
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 40px;
             line-height: 54px;
           }
           .element p:last-child {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 20px;
             line-height: 27px;
           }
@@ -393,9 +394,7 @@ body {
       max-width: 1352px;
       text-align: center;
       h2 {
-        font-family: 'Tinos-Regular', sans-serif;
-        font-size: 54px;
-        line-height: 62px;
+        @extend %fnt;
         margin-bottom: 138px;
         color: white;
       }
@@ -411,7 +410,6 @@ body {
           padding-bottom: 29px;
           position: relative;
           h3 {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 13px;
             line-height: 18px;
             padding: 7px 11px 11px 12px;
@@ -447,7 +445,6 @@ body {
             margin-bottom: 17px;
           }
           p {
-            font-family: 'Open Sans-Regular', sans-serif;
             font-size: 16px;
             line-height: 22px;
             margin: 0 auto 22px auto;
@@ -493,7 +490,6 @@ body {
         margin-bottom: 10px;
       }
       h3 {
-        font-family: 'Open Sans-Regular', sans-serif;
         font-size: 20px;
         line-height: 27px;
         margin-bottom: 25px;
@@ -509,9 +505,7 @@ body {
     padding-top: 100px;
     text-align: center;
     h2 {
-      font-family: 'Tinos-Regular', sans-serif;
-      font-size: 54px;
-      line-height: 62px;
+      @extend %fnt;
       margin-bottom: 60px;
       span {
         color: #D67E34;
@@ -532,7 +526,31 @@ body {
     height: 100px;
     color: transparent;
   }
-
+  .chef {
+    background-color: white;
+    padding: 100px 0;
+    .container {
+      text-align: center;
+      h2 {
+        @extend %fnt;
+        margin-bottom: 107px;
+        span {
+          color: #D67E34;
+        }
+      }
+      .chef_gallery {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  footer {
+    background: url("img/footer_bg.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 732px;
+  }
 }
 
 
