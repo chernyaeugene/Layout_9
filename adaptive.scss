@@ -1,0 +1,23 @@
+@media (min-width: 736px) {
+  .menu_list {
+    display: flex;
+    gap: 23px;
+  }
+}
+
+@media (max-width: 920px) {
+  body {
+    header {
+      .header_box {
+        .header_box_menu {
+          .header_menu_content {
+            .header_menu {
+              margin-right: 36px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

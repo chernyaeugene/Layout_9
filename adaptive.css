@@ -5,9 +5,9 @@
   }
 }
 @media (max-width: 920px) {
-
-  .header_menu {
+  body header .header_box .header_box_menu .header_menu_content .header_menu {
     margin-right: 34px;
   }
 }
 
+/*# sourceMappingURL=adaptive.css.map */
