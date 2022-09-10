@@ -1,4 +1,4 @@
-/*Обнуление*/
+@import "media-queries-mixin";/*Обнуление*/
 *{
   padding: 0;
   margin: 0;
@@ -155,6 +155,9 @@ body {
           align-items: center;
           .header_menu {
             margin-right: 36px;
+            @include media-query(768) {
+              margin-right: 34px;
+            }
             .menu_link {
               a {
                 font-family: 'OpenSans-Bold', sans-serif;

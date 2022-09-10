@@ -3,3 +3,4 @@
 *.map
 *.scssc
 .sass-cache/
+.idea/

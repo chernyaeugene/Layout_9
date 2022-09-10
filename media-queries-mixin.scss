@@ -1,0 +1,4 @@
+@mixin media-query($pixels) {
+  @media (max-width: #{$pixels}px) { @content; }
+}
+
