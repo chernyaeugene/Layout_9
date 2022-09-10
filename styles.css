@@ -144,14 +144,11 @@ body {
           align-items: center; }
           body header .header_box .header_box_menu .header_menu_content .header_menu {
             margin-right: 36px; }
-            body header .header_box .header_box_menu .header_menu_content .header_menu .menu_list {
-              display: flex;
-              gap: 23px; }
-              body header .header_box .header_box_menu .header_menu_content .header_menu .menu_list .menu_link a {
-                font-family: 'OpenSans-Bold', sans-serif;
-                font-size: 14px;
-                line-height: 19px;
-                text-transform: uppercase; }
+            body header .header_box .header_box_menu .header_menu_content .header_menu .menu_link a {
+              font-family: 'OpenSans-Bold', sans-serif;
+              font-size: 14px;
+              line-height: 19px;
+              text-transform: uppercase; }
           body header .header_box .header_box_menu .header_menu_content .cart_link {
             margin-right: 21px; }
           body header .header_box .header_box_menu .header_menu_content .menu_line {

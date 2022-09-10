@@ -155,16 +155,12 @@ body {
           align-items: center;
           .header_menu {
             margin-right: 36px;
-            .menu_list {
-              display: flex;
-              gap: 23px;
-              .menu_link {
-                a {
-                  font-family: 'OpenSans-Bold', sans-serif;
-                  font-size: 14px;
-                  line-height: 19px;
-                  text-transform: uppercase;
-                }
+            .menu_link {
+              a {
+                font-family: 'OpenSans-Bold', sans-serif;
+                font-size: 14px;
+                line-height: 19px;
+                text-transform: uppercase;
               }
             }
           }
@@ -245,7 +241,6 @@ body {
       position: relative;
       .history_intro {
         display: flex;
-        //gap: 31px;
         max-width: 1108px;
         width: 100%;
         justify-content: space-between;
@@ -552,5 +547,4 @@ body {
     height: 732px;
   }
 }
-
 
