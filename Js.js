@@ -18,7 +18,7 @@ new Swiper('.swiper_menu', {
 });
 new Swiper('.swiper_gallery', {
     loop : true,
-    speed: 800,
+    speed: 2500,
     spaceBetween: 20,
     simulateTouch: true,
     touchRatio: 1,

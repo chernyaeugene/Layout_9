@@ -544,8 +544,9 @@ body {
             white-space: nowrap; }
             @media (max-width: 765px) {
               body .daily .container .daily_img_box .offers p {
-                font-size: 22px;
-                line-height: 25px; } }
+                font-size: 21px;
+                line-height: 25px;
+                margin-right: 5px; } }
           body .daily .container .daily_img_box .offers img {
             margin-right: 11px; }
         body .daily .container .daily_img_box .offer p:last-child {
